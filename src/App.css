@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background-color: #282D35;
+}
+
+.nav-main{
+  background-color: #21222A;
+  padding: 10px;
+}
+
+.nav-logo-name {
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: space-around;
+  color: #61DAFB;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  margin-right: 27px;
+  color: #DEEBF8;
+}
+
+.main-component {
+  color: #DEEBF8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-component > .main-component-inner {
+  padding: 60px;
+}
+
+.main-component > h1 {
+  letter-spacing: -0.05em;
+}
+
+.main-component-list > ul > li {
+  padding-block: 10px;
+}
+
+.main-component-list > ul > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
